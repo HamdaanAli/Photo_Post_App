@@ -6,11 +6,12 @@ import java.util.Date;
  * Created by User on 26-May-18.
  */
 
-public class BlogPost {
+public class BlogPost extends BlogPostId{
     public String user_id, image_url, desc, image_thumb;
     public Date timestamp;
 
     public BlogPost() {
+
     }
 
     public BlogPost(String user_id, String image_url, String desc, String image_thumb, Date timestamp) {
